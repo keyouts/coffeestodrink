@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Coffee Freshness Alert</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container" role="region" aria-labelledby="freshHeading">
+    <span class="aria-text" aria-label="Coffee Freshness Alert Widget. Shows the 3 oldest coffees based on purchase date.">Coffee Freshness Alert Widget</span>
+
+    <h1 id="freshHeading">Coffees to Drink Soon</h1>
+    <div id="alertList" aria-label="List of oldest coffees"></div>
+    <div id="errorMsg" class="error" role="alert" aria-live="assertive" style="display: none;"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
+
